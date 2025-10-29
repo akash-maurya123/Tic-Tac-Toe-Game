@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import confetti from "canvas-confetti";
-import bgImage from "../assets/tictactoe-background.png";
 
 export default function TicTacToe() {
   const [board, setBoard] = useState(Array(25).fill(null)); // 5x5 grid
