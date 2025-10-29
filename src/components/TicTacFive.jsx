@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import confetti from "canvas-confetti";
+import bgImage from "../assets/tictactoe-background.png";
 
 export default function TicTacToe() {
   const [board, setBoard] = useState(Array(25).fill(null)); // 5x5 grid
@@ -53,11 +54,13 @@ export default function TicTacToe() {
   };
 
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center  px-2">
+    <div className="d-flex flex-column justify-content-center align-items-center  px-2" 
+    >
       <div
         className="p-4 bg-white rounded shadow text-center"
         style={{
           background: "linear-gradient(145deg, #fff9a8, #ffeb3b, #ffc107, #ff9800)",
+          
           maxWidth: "95vw",
         }}
       >

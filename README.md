@@ -1,16 +1,67 @@
-# React + Vite
+🎮 Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🕹️ Play Live: https://play-tic-tac-toe-online.onrender.com/
 
-Currently, two official plugins are available:
+🧩 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a Tic Tac Toe Game built using React (Vite) — a fun, lightweight, and interactive web-based game where two players (X and O) take turns marking spaces on a 3×3 grid. The first player to align three of their marks in a row, column, or diagonal wins the game.
 
-## React Compiler
+The project demonstrates the use of React hooks, state management, and responsive UI design while keeping the interface minimal and engaging.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Features
 
-## Expanding the ESLint configuration
+✅ Clean and responsive UI
+✅ Real-time turn updates (X / O)
+✅ Automatic winner detection
+✅ Game reset functionality
+✅ Confetti animation on win 🎉
+✅ Deployed on Render
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: CSS / Bootstrap
+
+Animation: Canvas Confetti
+
+Deployment: Render
+
+📸 Preview
+
+
+(You can replace this image with your own screenshot if you want)
+
+💻 Setup Instructions
+
+Follow these steps to run locally 👇
+
+# Clone this repository
+git clone https://github.com/akash-maurya123/Tic-Tac-Toe-Game.git
+
+# Go inside the project folder
+cd Tic-Tac-Toe-Game
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+
+Then open your browser and go to:
+👉 http://localhost:5173
+
+📢 Live Demo
+
+🔗 Play Now: https://play-tic-tac-toe-online.onrender.com/
+
+👨‍💻 Author
+
+Akash Maurya
+
+💼 LinkedIn https://www.linkedin.com/in/akash-maurya-cs2023
+
+🌐 Portfolio https://akash-maurya-portfolio.netlify.app
+
+📧 akashmaurya7934@gmail.com

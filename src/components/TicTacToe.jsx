@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import confetti from "canvas-confetti";
 import FiveTacFive from "./TicTacFive"; // ✅ Make sure this component exists
+import bgImage from "../assets/tictactoe-background.png";
 
 export default function TicTacToe() {
   const [showFive, setShowFive] = useState(false);
@@ -58,7 +59,10 @@ export default function TicTacToe() {
       <div
         className="d-flex flex-column justify-content-center align-items-center min-vh-100 p-3"
         style={{
-          background: "linear-gradient(145deg, #b2fefa, #1ff52a, #009245, #004d00)",
+          // background: "linear-gradient(145deg, #b2fefa, #1ff52a, #009245, #004d00)",
+          backgroundImage: `url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
         }}
       >
         <button
@@ -87,7 +91,10 @@ export default function TicTacToe() {
     <div
       className="d-flex flex-column justify-content-center align-items-center min-vh-100 p-3"
       style={{
-        background: "linear-gradient(145deg, #b2fefa, #1ff52a, #009245, #004d00)",
+        // background: "linear-gradient(145deg, #b2fefa, #1ff52a, #009245, #004d00)",
+         backgroundImage: `url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       {/* Mode Buttons */}
