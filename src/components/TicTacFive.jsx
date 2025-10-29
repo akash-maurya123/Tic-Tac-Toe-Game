@@ -64,7 +64,7 @@ export default function TicTacToe() {
           maxWidth: "95vw",
         }}
       >
-        <h1 className="mb-3 text-dark">Tic Tac Toe (5×5)</h1>
+        <h1 className="mb-3 fs-3 fs-md-2">Tic Tac Toe (5×5)</h1>
 
         <div
           className="position-relative"
